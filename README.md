@@ -6,4 +6,5 @@
 3- css 
 4- bootstrap
 
-## there are some validation methods available try it out 
+## there are some validation methods available try it out here 
+https://ahmadbadran.github.io/Registration/
