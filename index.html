@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <title>Registration</title>
+</head>
+<body>
+    <div class="overlay">
+
+        <form id="regForm">
+           <!--   con = Container  for items in the form-->
+           <div class="con">
+           <!--     Start  header Content  -->
+           <header class="head-form">
+              <h2>Registration Form</h2>
+
+              <p>sign-up here</p>
+           </header>
+           <!--     End  header Content  -->
+           <br>
+           <div class="field-set">
+             
+              <!--   user name -->
+                 <span class="input-item">
+                   <i class="fa fa-user-circle"></i>
+                 </span>
+                <!--   user name Input-->
+                 <input class="form-input" id="userName"  type="text" placeholder="@UserName" name="userName" required>
+             
+              <br>
+             
+                   <!--   Password -->
+             
+              <span class="input-item">
+                <i class="fa fa-key"></i>
+               </span>
+              <!--   Password Input-->
+              <input class="form-input" type="password" placeholder="Password"  name="password" required id="pwd">
+             
+        <!--      Show/hide password  -->
+             <span>
+                <i class="fa fa-eye" aria-hidden="true"  type="button" id="eye"></i>
+             </span>
+             
+             
+              <br>
+
+               <!--   Email-->
+               <span class="input-item">
+                <i class="fa fa-envelope"></i>     
+               </span>
+             <!--   Email Input-->
+              <input class="form-input"  type="email" placeholder="Email" required name="email">
+          
+           <br>
+          
+               <!--   phoneNumber-->
+               <span class="input-item">
+                <i class="fa fa-phone" style="color: #000000;"></i>    
+                         <!--   phone Input-->
+              <input class="form-input" type="text" placeholder="Phone Number" required name="phone">
+          
+           <br>
+           <br>
+        <!--        buttons -->
+        <!--      button LogIn -->
+              <button type="submit" value="submit" class="sign-up"> sign-up</button>
+           </div>
+          
+       
+          </div>
+          
+          <!-- End Form -->
+        </form>
+        </div>
+     <script src="/app.js"></script>
+</body>
+</html>
